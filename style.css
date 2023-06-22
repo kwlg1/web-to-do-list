@@ -1,0 +1,77 @@
+body {
+  background-color: #06050659;
+  color: #fff;
+  text-align: center;
+}
+
+button {
+  background-color: #16131372;
+  color: #fff;
+  border: none;
+  border-radius:  2em;
+  height: 7em;
+  width: 9em;
+  margin: 0.2em;
+  font-size: 0.75em;
+}
+
+input {
+  background-color: #e1e1e199;
+  color: #fff;
+  display: none;
+  border: none;
+  border-radius: 0.5em;
+}
+
+#viewTask {
+  color: #fff;
+  background-color: #24242499;
+  padding: 1em;
+  margin-top: 3em;
+  border-radius: 1.5em;
+  display: none;
+}
+
+#inputs,#editarTask{
+  color: #fff;
+  background-color: #24242499;
+  display: none;
+  border-radius: 2em;
+  padding: 1em;
+  margin-top: 10em;
+}
+
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 20em;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 0.75em;
+  background: #58555599;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: -0.4em;
+  background: #24242499;
+  border-radius: 80em;
+}
+
+
+.dados {
+  background-color: #e2e0e299;
+  border-radius: 0.5em;
+  height: 2em;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#nome,#data,#descricao,#satisfacao,#labelNome,#labelData,#labelDescricao,#labelSatisfacao,#insertTask,#listTask{
+  display: none;
+}

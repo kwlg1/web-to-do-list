@@ -1,0 +1,47 @@
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+  
+    <body>
+          <div id="buttons">
+            <button id="add">Registrar tarefas</button>
+            <button id="divView">Ver tarefas</button>
+            <button id="ocultarTask">Ocultar tarefas</button>
+          </div> 
+          
+            <div id="inputs">
+              <label id="labelNome">nome da atividade</label>
+              <input id="nome" type="text"/>
+              <br/><br/>
+              
+              <label id="labelData">data de realização</label>
+              <input id="data" type="date"/>
+              <br/><br>
+              <label id="labelDescricao">descrição </label>
+              <input id="descricao" type="text"/>
+              <br/><br>
+              <label id="labelSatisfacao">satisfação</label>
+              <input type="range" id="satisfacao" min="0" max="10" step="1">
+              <div id="mostrarSatisfacao"></div>
+            
+              <br/><br/>
+              
+              <div id="insertTask">
+                <button value="false">inserir atividade</button>
+              </div>
+              
+            </div>
+            
+            <div id="viewTask">
+                <div id="listTask"></div>
+            </div>
+            <script src="script.js"></script>
+            
+    </body>
+</html>
